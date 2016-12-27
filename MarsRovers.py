@@ -12,7 +12,7 @@ class MarsRovers(object):
 		while True:
 			corner = raw_input('\nEnter the space-seperated upper-right co-ordinates of plateau  (X Y): ')
 			if (len(corner.strip().split())!=2) or (('').join(corner.strip().split()).isdigit() == False):
-				print "Wrong input! Two co-ordinates should be integers. \n"
+				print "Wrong input! Two integer co-ordinates are required. \n"
 				continue
 			else: 
 				return corner
