@@ -5,7 +5,7 @@ All the code is in MarsRovers.py file. <br />
 To run the code, go to the files location on command prompt and execute the command 'python MarsRovers.py'.<br /><br />
 
 After successfull run, first the user will be asked for Mars plateau's co-ordinates of right-upper corner with the help of get_corner() function.
-This corner should should consist of space-separated integers X and Y co-ordinates.E.g. 7 8. User will be asked again for input if the previous input is in wrong format. The left-bottom corner is assumed to be at 0,0.<br />
+This corner should consist of space-separated integers X and Y co-ordinates.E.g. 7 8. User will be asked again for input if the previous input is in wrong format. The left-bottom corner is assumed to be at 0,0.<br />
 
 Next in get_instruction() function, user will be asked for rover's starting position on plateau. This starting position should in the form of space-seperated values
 of rover's X, Y co-ordinates and its initial orientation i.e. the direction it is facing.
